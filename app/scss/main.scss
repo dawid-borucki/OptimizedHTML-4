@@ -48,6 +48,12 @@ b, strong {
 	font-weight: bold;
 }
 
+//Custom
+
+.name{
+	margin-top: ($spacer * 4);
+}
+
 
 
 @import "media"; // Always at the end
