@@ -51,7 +51,15 @@ b, strong {
 //Custom
 
 .name{
+	margin-top: ($spacer * 6);
+}
+
+.section{
 	margin-top: ($spacer * 4);
+}
+
+.hero-photo{
+	max-width: 100%;
 }
 
 
