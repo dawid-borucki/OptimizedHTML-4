@@ -50,13 +50,17 @@ b, strong {
 
 //Custom
 
+.onePosititon {
+	margin-bottom: ($spacer *2);
+}
+
 .container{
 	margin-top: ($spacer *6);
 	margin-bottom: ($spacer *6);
 }
 
 .section{
-	margin-top: ($spacer * 4);
+	margin-top: ($spacer * 2);
 }
 
 .hero-photo{
@@ -64,11 +68,22 @@ b, strong {
 }
 
 .positionDescription{
-	li{
-		margin-left: ($spacer * 2);
+}
+
+.competencies ul {
+	padding-left:20px;
+}
+
+.side-bar {
+	background-color:#ddd;
+	h3 {
+		font-size: 1.4rem;
 	}
 }
 
+.about_me {
+	font-size: .8rem;
+}
 
 
 @import "media"; // Always at the end
