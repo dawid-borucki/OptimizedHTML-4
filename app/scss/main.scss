@@ -55,7 +55,7 @@ b, strong {
 }
 
 .container{
-	margin-top: ($spacer *6);
+	margin-top: ($spacer *2);
 	margin-bottom: ($spacer *6);
 }
 
@@ -82,7 +82,18 @@ b, strong {
 }
 
 .about_me {
-	font-size: .8rem;
+	font-size: .9rem;
+}
+
+.experience_section {
+	border-top: 1px #ddd solid;
+}
+
+.clause {
+	margin-top: ($spacer * 2);
+	p{
+			font-size: .8rem;
+	}
 }
 
 
